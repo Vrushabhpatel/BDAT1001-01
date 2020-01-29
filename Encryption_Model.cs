@@ -12,7 +12,7 @@ namespace Encryption
             int[] cipher = new[] { 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 }; //Fibonacci Sequence
             string cipherasString = String.Join(",", cipher.Select(x => x.ToString())); //FOr display
 
-            int encryptionDepth = 10;
+            int encryptionDepth = 20;
 
             Encrypter encrypter = new Encrypter(unicodeString, cipher, encryptionDepth);
 
